@@ -3,6 +3,7 @@
 Pascal's triangle that returns a list of lists of integer.
 """
 
+
 def factorial(n):
     """ Factorial function."""
 
@@ -11,10 +12,12 @@ def factorial(n):
     else:
         return (n * factorial(n - 1))
 
+
 def comb(a, b):
     """ Calculate the combination of two numbers."""
 
     return factorial(a) // (factorial(b) * (factorial(a - b)))
+
 
 def pascal_triangle(n):
     """ Representing the pascal's triangle of n."""
